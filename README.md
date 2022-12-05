@@ -1,7 +1,7 @@
 # Pertemuan 11 (Praktikum 6)
 
 ### Tugas Praktikum
-##### Buat program sederhana dengan mengaplikasikan penggunaan fungsi yang akan menampilkan daftar nilai mahasiswa, dengan ketentuan :
+#### Buat program sederhana dengan mengaplikasikan penggunaan fungsi yang akan menampilkan daftar nilai mahasiswa, dengan ketentuan :
 - fungsi **tambah()** untuk menambahkan data
 - fungsi **tampilkan()** untuk menampilkan data
 - fungsi **hapus(nama)** untuk menghapus data berdasarkan nama
@@ -13,7 +13,7 @@
 data = {}
 ```
 - Lalu kita akan menampilkan data mahasiswa menggunakan fungsi
-###### Fungsi Tambah() Untuk Menambahkan Data
+#### Fungsi Tambah() Untuk Menambahkan Data
 ```
 def tambah(*t):
     print("Tambah Data")
@@ -25,9 +25,9 @@ def tambah(*t):
     akhir = tugas*30/100 + uts*35/100 + uas*35/100
     data[nama] = nim, uts, uas, tugas, akhir
 ```
-##### Berikut Tamplian Tambah Data
+- Berikut Tamplian Tambah Data
 ![img](ss/Tambahdataa.png)
-##### Fungsi Tampilkan() Untuk Menampilkan Data
+#### Fungsi Tampilkan() Untuk Menampilkan Data
 ```
 def tampilkan(*l):
     if data.items():
@@ -51,10 +51,10 @@ def tampilkan(*l):
         print("|                                TIDAK ADA DATA                              |")
         print("="*78)
 ```
-##### Berikut Tampilan Tampilkan Data
+- Berikut Tampilan Tampilkan Data
 ![img](ss/Lihatdata.png)
 
-##### Fungsi Hapus(nama) Untuk Menghapus Data Bedasarkan Nama
+#### Fungsi Hapus(nama) Untuk Menghapus Data Bedasarkan Nama
 ```
 def hapus(*nama):
     print("Hapus Data")
@@ -64,10 +64,10 @@ def hapus(*nama):
     else:
         print("Nama {0} Tidak Ditemukan".format(nama))
 ```
-##### Berikut Tampilan Hapus(nama)
+- Berikut Tampilan Hapus(nama)
 ![img](ss/Hapusdata.png)
 
-##### Fungsi Ubah(nama) Untuk Mengubah Data Bedasarkan Nama
+#### Fungsi Ubah(nama) Untuk Mengubah Data Bedasarkan Nama
 ```
 def ubah(*nama):
     print("Ubah Data")
@@ -82,8 +82,8 @@ def ubah(*nama):
     else:
         print("Nama {0} tidak ditemukan".format(nama))
   ```
-  ##### Berikut Tampilan Ubah(nama)
+  - Berikut Tampilan Ubah(nama)
   ![img](ss/Ubahdata.png)
 
-##### Tampilan Saat Keluar Dari Program
+- Tampilan Saat Keluar Dari Program
 ![gambar](ss/Keluarprogram.png)
