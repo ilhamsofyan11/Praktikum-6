@@ -1,5 +1,9 @@
 # Pertemuan 11 (Praktikum 6)
 
+### Nama : Muhammad Ilham Sofyan Saifudin
+### Kelas: TI 22 A3
+### NIM  : 312210297
+
 ### Tugas Praktikum
 #### Buat program sederhana dengan mengaplikasikan penggunaan fungsi yang akan menampilkan daftar nilai mahasiswa, dengan ketentuan :
 - fungsi **tambah()** untuk menambahkan data
