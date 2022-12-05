@@ -13,7 +13,7 @@
 data = {}
 ```
 - Lalu kita akan menampilkan data mahasiswa menggunakan fungsi
-#### 1.Fungsi Tambah() Untuk Menambahkan Data
+#### 1. Fungsi Tambah() Untuk Menambahkan Data
 ```
 def tambah(*t):
     print("Tambah Data")
@@ -27,7 +27,7 @@ def tambah(*t):
 ```
 - Berikut Tampilan Tambah Data
 ![img](ss/Tambahdataa.png)
-#### 2.Fungsi Tampilkan() Untuk Menampilkan Data
+#### 2. Fungsi Tampilkan() Untuk Menampilkan Data
 ```
 def tampilkan(*l):
     if data.items():
@@ -54,7 +54,7 @@ def tampilkan(*l):
 - Berikut Tampilan Tampilkan Data
 ![img](ss/Lihatdata.png)
 
-#### 3.Fungsi Hapus(nama) Untuk Menghapus Data Bedasarkan Nama
+#### 3. Fungsi Hapus(nama) Untuk Menghapus Data Bedasarkan Nama
 ```
 def hapus(*nama):
     print("Hapus Data")
@@ -67,7 +67,7 @@ def hapus(*nama):
 - Berikut Tampilan Hapus(nama)
 ![img](ss/Hapusdata.png)
 
-#### 4.Fungsi Ubah(nama) Untuk Mengubah Data Bedasarkan Nama
+#### 4. Fungsi Ubah(nama) Untuk Mengubah Data Bedasarkan Nama
 ```
 def ubah(*nama):
     print("Ubah Data")
